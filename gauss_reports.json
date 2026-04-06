@@ -1,0 +1,1446 @@
+[
+  {
+    "subject_id": {
+      "year": "2025-26",
+      "semester": "1S",
+      "short_code": "61CD",
+      "code": "615001015"
+    },
+    "pages": {
+      "anexos": {
+        "meta": {
+          "source_name": "anexos",
+          "url": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/anexos",
+          "page_title": "GAUSS - UPM",
+          "report_title": "Informes de Asignatura | Consulta de informe",
+          "pdf_url": "https://www.upm.es/gauss/includes_ajax/informes_asignatura/gestion/gia_gestionar_descarga_pdf.upm?archivo=IA_61CD_615001015_1S_2025-26_2",
+          "estado": "BORRADOR",
+          "nombre_asignatura_completo": "Web Semántica, Linked Data y Grafos de Conocimientos - 615001015 - Grado en Ciencia de Datos e Inteligencia Artificial - 61CD - 2º Curso",
+          "seccion_detectada": "Resumen de resultados"
+        },
+        "menu_informe": [
+          {
+            "id": "1",
+            "label": "Resumen de resultados",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/anexos",
+            "active": true
+          },
+          {
+            "id": "2",
+            "label": "Datos de la asignatura",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/datos-descriptivos",
+            "active": false
+          },
+          {
+            "id": "3",
+            "label": "Propuestas de mejora del curso anterior",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/mejoras-previas",
+            "active": false
+          },
+          {
+            "id": "4",
+            "label": "Valoración de la evaluación",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/evaluacion",
+            "active": false
+          },
+          {
+            "id": "5",
+            "label": "Tasas de resultados",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/tasas",
+            "active": false
+          },
+          {
+            "id": "6",
+            "label": "Coordinación entre asignaturas",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/coordinacion-asignaturas",
+            "active": false
+          },
+          {
+            "id": "7",
+            "label": "Propuestas de mejora",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/mejoras",
+            "active": false
+          },
+          {
+            "id": "8",
+            "label": "Consideraciones finales",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/consideraciones",
+            "active": false
+          }
+        ],
+        "contenido": {
+          "Resumen de resultados": {
+            "_contenido": [
+              {
+                "info": "Introducción Los datos ofrecidos a continuación sólo hacen referencia a estudiantes que están cursando la titulación objeto del Informe , por lo tanto Alumnos de Erasmus, Séneca, de Doctorado, etc. no aparecerán a pesar de estar en el Acta de la Asignatura. No obstante, a efectos de control, en el Anexo 3 se incluyen los datos y resultados teniendo en cuenta a todos los demás estudiantes tal y como constan en las actas de la asignatura. Pueden existir variaciones dentro del Informe respecto al número de alumnos de una misma asignatura, si los datos han sido tomados en distintas fechas, debido a que cualquier consulta de datos obedece a un suceso de variación temporal y así debe entenderse. Todas las tablas ofrecidas a continuación han sido elaboradas en el Rectorado a partir de los datos existentes en la base de datos institucional AGORA."
+              },
+              {
+                "accordion": [
+                  {
+                    "grupo": "ANEXO 1 - PERFIL DE LOS ALUMNOS MATRICULADOS",
+                    "vistas": [
+                      "A1.1 Matriculados",
+                      "A1.2 Número de matrículas",
+                      "A1.3 Carga lectiva",
+                      "A1.4 Dedicación"
+                    ],
+                    "titulos": [],
+                    "tablas": [
+                      {
+                        "Alumnos de promoción *": "44",
+                        "Resto de alumnos": "7"
+                      },
+                      {
+                        "Número de matriculaciones del alumno": "Alumnos matriculados",
+                        "Una vez": "50",
+                        "Dos veces": "1",
+                        "Tres o más veces": "0",
+                        "Total": "51"
+                      },
+                      {
+                        "Menos de 20 ECTS": "0",
+                        "Entre 20 y 25 ECTS": "0",
+                        "Entre 25 y 30 ECTS": "0",
+                        "Entre 30 y 35 ECTS": "29",
+                        "Entre 35 y 40 ECTS": "19",
+                        "40 o más ECTS": "3",
+                        "Total": "51"
+                      },
+                      {
+                        "Dedicación completa": "51",
+                        "Dedicación parcial": "0"
+                      }
+                    ],
+                    "parrafos": [
+                      "44",
+                      "7",
+                      "* Alumnos de promoción : Alumno que, no habiendo estado previamente matriculado en la UPM, inicia sus estudios en una titulación en primero y procede de alguna de estas vías de acceso: Pruebas de Acceso a la Universidad o equivalentes, Formación Profesional o equivalentes o mayores de 25 años.",
+                      "Distribución de alumnos por el número de veces que se han matriculado en la asignatura.",
+                      "50",
+                      "1",
+                      "0",
+                      "51",
+                      "Distribución de alumnos por número de créditos matriculados en el semestre.",
+                      "0",
+                      "0",
+                      "0",
+                      "29",
+                      "19",
+                      "3",
+                      "51",
+                      "Distribución de alumnos por dedicación (según matrícula).",
+                      "51",
+                      "0"
+                    ],
+                    "listas": []
+                  },
+                  {
+                    "grupo": "ANEXO 2 - TASAS DE RESULTADOS ACADÉMICOS DE LA ASIGNATURA",
+                    "vistas": [
+                      "A2.1 Tasas de rendimiento",
+                      "A2.2 Tasa de rendimiento acumulada",
+                      "A2.3 Tasas de éxito",
+                      "A2.4 Tasa de éxito acumulada",
+                      "A2.5 Tasas de absentismo"
+                    ],
+                    "titulos": [],
+                    "tablas": [
+                      [
+                        {
+                          "Matrículas": "Una vez",
+                          "Nº de alumnos matriculados": "50",
+                          "Nº de alumnos aprobados": "50",
+                          "Tasa de rendimiento (%)": "100.00"
+                        },
+                        {
+                          "Matrículas": "Dos veces",
+                          "Nº de alumnos matriculados": "1",
+                          "Nº de alumnos aprobados": "0",
+                          "Tasa de rendimiento (%)": "0.00"
+                        },
+                        {
+                          "Matrículas": "Tres o más veces",
+                          "Nº de alumnos matriculados": "0",
+                          "Nº de alumnos aprobados": "0",
+                          "Tasa de rendimiento (%)": "0.00"
+                        },
+                        {
+                          "Matrículas": "Todos los alumnos",
+                          "Nº de alumnos matriculados": "51",
+                          "Nº de alumnos aprobados": "50",
+                          "Tasa de rendimiento (%)": "98.04"
+                        }
+                      ],
+                      [
+                        {
+                          "Nº de matriculaciones de los alumnos": "52",
+                          "Nº de alumnos aprobados": "50",
+                          "Tasa de rendimiento acumulada (%)": "96.15"
+                        }
+                      ],
+                      [
+                        {
+                          "Convocatorias": "Una vez",
+                          "Nº de alumnos presentados": "50",
+                          "Nº de alumnos aprobados": "50",
+                          "Tasa de éxito (%)": "100.00"
+                        },
+                        {
+                          "Convocatorias": "Dos veces",
+                          "Nº de alumnos presentados": "1",
+                          "Nº de alumnos aprobados": "0",
+                          "Tasa de éxito (%)": "0.00"
+                        },
+                        {
+                          "Convocatorias": "Tres o más veces",
+                          "Nº de alumnos presentados": "0",
+                          "Nº de alumnos aprobados": "0",
+                          "Tasa de éxito (%)": "0.00"
+                        },
+                        {
+                          "Convocatorias": "Total",
+                          "Nº de alumnos presentados": "51",
+                          "Nº de alumnos aprobados": "50",
+                          "Tasa de éxito (%)": "98.04"
+                        }
+                      ],
+                      [
+                        {
+                          "Nº de intentos totales de los alumnos": "52",
+                          "Nº de alumnos aprobados": "50",
+                          "Tasa de éxito acumulada (%)": "96.15"
+                        }
+                      ],
+                      [
+                        {
+                          "Matrículas": "Una vez",
+                          "Nº de alumnos matriculados": "50",
+                          "Nº de alumnos no presentados": "0",
+                          "Tasa de absentismo (%)": "0.00"
+                        },
+                        {
+                          "Matrículas": "Dos veces",
+                          "Nº de alumnos matriculados": "1",
+                          "Nº de alumnos no presentados": "0",
+                          "Tasa de absentismo (%)": "0.00"
+                        },
+                        {
+                          "Matrículas": "Tres o más veces",
+                          "Nº de alumnos matriculados": "0",
+                          "Nº de alumnos no presentados": "0",
+                          "Tasa de absentismo (%)": "0.00"
+                        },
+                        {
+                          "Matrículas": "Total",
+                          "Nº de alumnos matriculados": "51",
+                          "Nº de alumnos no presentados": "0",
+                          "Tasa de absentismo (%)": "0.00"
+                        }
+                      ]
+                    ],
+                    "parrafos": [
+                      "Los datos proporcionados en este Anexo se refieren a los resultados obtenidos durante la convocatoria ordinaria de la asignatura.",
+                      "Relación porcentual entre el nº de alumnos aprobados y el nº de alumnos matriculados.",
+                      "Distribución por el nº de matrículas del alumno en la asignatura:",
+                      "50",
+                      "50",
+                      "100.00",
+                      "1",
+                      "0",
+                      "0.00",
+                      "0",
+                      "0",
+                      "0.00",
+                      "51",
+                      "50",
+                      "98.04",
+                      "Relación porcentual entre el nº de alumnos aprobados durante el curso y el nº total de matrículas acumuladas.",
+                      "52",
+                      "50",
+                      "96.15",
+                      "Relación porcentual entre el nº de alumnos aprobados y el nº de alumnos presentados.",
+                      "Distribución por el nº de convocatorias en las que se ha presentado el alumno:",
+                      "50",
+                      "50",
+                      "100.00",
+                      "1",
+                      "0",
+                      "0.00",
+                      "0",
+                      "0",
+                      "0.00",
+                      "51",
+                      "50",
+                      "98.04",
+                      "Relación porcentual entre el nº de alumnos aprobados en la convocatoria y el nº total de convocatorias en las que se ha presentado el alumno en dicha asignatura.",
+                      "52",
+                      "50",
+                      "96.15",
+                      "Relación porcentual entre el nº de alumnos NO presentados y el nº de alumnos matriculados.",
+                      "Distribución por el nº de matrículas del alumno en la asignatura:",
+                      "50",
+                      "0",
+                      "0.00",
+                      "1",
+                      "0",
+                      "0.00",
+                      "0",
+                      "0",
+                      "0.00",
+                      "51",
+                      "0",
+                      "0.00"
+                    ],
+                    "listas": []
+                  },
+                  {
+                    "grupo": "ANEXO 3 - RESULTADOS DE LAS ACTAS",
+                    "vistas": [
+                      "A3.1 Tasa de rendimiento",
+                      "A3.2 Tasa de éxito",
+                      "A3.3 Tasa de absentismo"
+                    ],
+                    "titulos": [],
+                    "tablas": [
+                      [
+                        {
+                          "Nº de alumnos matriculados": "51",
+                          "Nº de alumnos aprobados": "50",
+                          "Tasa de rendimiento (%)": "98.04"
+                        }
+                      ],
+                      [
+                        {
+                          "Nº de alumnos presentados": "51",
+                          "Nº de alumnos aprobados": "50",
+                          "Tasa de éxito (%)": "98.04"
+                        }
+                      ],
+                      [
+                        {
+                          "Nº de alumnos matriculados": "51",
+                          "Nº de alumnos no presentados": "0",
+                          "Tasa de absentismo (%)": "0.00"
+                        }
+                      ]
+                    ],
+                    "parrafos": [
+                      "Tal y como se ha indicado en la introducción de estos anexos, se proporcionan aquí los resultados según las actas de la asignatura para la convocatoria ordinaria, a pesar de que incluyen alumnos que no son estrictamente de la Titulación (Erasmus, Séneca, de Doctorado, etc.) objeto del Informe.",
+                      "Relación porcentual entre el nº de alumnos aprobados y el nº de alumnos matriculados.",
+                      "51",
+                      "50",
+                      "98.04",
+                      "Relación porcentual entre el nº de alumnos aprobados y el nº de alumnos presentados.",
+                      "51",
+                      "50",
+                      "98.04",
+                      "Relación porcentual entre el nº de alumnos NO presentados y el nº de alumnos matriculados.",
+                      "51",
+                      "0",
+                      "0.00"
+                    ],
+                    "listas": []
+                  },
+                  {
+                    "grupo": "ANEXO 4 - EVOLUCIÓN DE LAS TASAS DURANTE LOS ÚLTIMOS CURSOS",
+                    "vistas": [
+                      "A4.1 Tasa de rendimiento",
+                      "A4.2 Tasa de éxito",
+                      "A4.3 Tasa de absentismo"
+                    ],
+                    "titulos": [
+                      "Convocatoria ordinaria",
+                      "Convocatoria ordinaria y extraordinaria",
+                      "Convocatoria ordinaria",
+                      "Convocatoria ordinaria y extraordinaria*",
+                      "Convocatoria ordinaria",
+                      "Convocatoria ordinaria y extraordinaria*"
+                    ],
+                    "tablas": [
+                      [
+                        {
+                          "Curso": "2024-25",
+                          "Nº de alumnos matriculados": "39",
+                          "Nº de alumnos aprobados": "38",
+                          "Tasa de rendimiento (%)": "97.44"
+                        },
+                        {
+                          "Curso": "2023-24",
+                          "Nº de alumnos matriculados": "32",
+                          "Nº de alumnos aprobados": "32",
+                          "Tasa de rendimiento (%)": "100.00"
+                        },
+                        {
+                          "Curso": "2022-23",
+                          "Nº de alumnos matriculados": "28",
+                          "Nº de alumnos aprobados": "27",
+                          "Tasa de rendimiento (%)": "96.43"
+                        },
+                        {
+                          "Curso": "2021-22",
+                          "Nº de alumnos matriculados": "24",
+                          "Nº de alumnos aprobados": "22",
+                          "Tasa de rendimiento (%)": "91.67"
+                        }
+                      ],
+                      [
+                        {
+                          "Curso": "2024-25",
+                          "Nº de alumnos matriculados": "39",
+                          "Nº de alumnos aprobados": "38",
+                          "Tasa de rendimiento (%)": "97.44"
+                        },
+                        {
+                          "Curso": "2023-24",
+                          "Nº de alumnos matriculados": "32",
+                          "Nº de alumnos aprobados": "32",
+                          "Tasa de rendimiento (%)": "100.00"
+                        },
+                        {
+                          "Curso": "2022-23",
+                          "Nº de alumnos matriculados": "28",
+                          "Nº de alumnos aprobados": "28",
+                          "Tasa de rendimiento (%)": "100.00"
+                        },
+                        {
+                          "Curso": "2021-22",
+                          "Nº de alumnos matriculados": "24",
+                          "Nº de alumnos aprobados": "23",
+                          "Tasa de rendimiento (%)": "95.83"
+                        }
+                      ],
+                      [
+                        {
+                          "Curso": "2024-25",
+                          "Nº de alumnos presentados": "39",
+                          "Nº de alumnos aprobados": "38",
+                          "Tasa de éxito (%)": "97.44"
+                        },
+                        {
+                          "Curso": "2023-24",
+                          "Nº de alumnos presentados": "32",
+                          "Nº de alumnos aprobados": "32",
+                          "Tasa de éxito (%)": "100.00"
+                        },
+                        {
+                          "Curso": "2022-23",
+                          "Nº de alumnos presentados": "27",
+                          "Nº de alumnos aprobados": "27",
+                          "Tasa de éxito (%)": "100.00"
+                        },
+                        {
+                          "Curso": "2021-22",
+                          "Nº de alumnos presentados": "24",
+                          "Nº de alumnos aprobados": "22",
+                          "Tasa de éxito (%)": "91.67"
+                        }
+                      ],
+                      [
+                        {
+                          "Curso": "2024-25",
+                          "Nº de alumnos presentados": "39",
+                          "Nº de alumnos aprobados": "38",
+                          "Tasa de éxito (%)": "97.44"
+                        },
+                        {
+                          "Curso": "2023-24",
+                          "Nº de alumnos presentados": "32",
+                          "Nº de alumnos aprobados": "32",
+                          "Tasa de éxito (%)": "100.00"
+                        },
+                        {
+                          "Curso": "2022-23",
+                          "Nº de alumnos presentados": "28",
+                          "Nº de alumnos aprobados": "28",
+                          "Tasa de éxito (%)": "100.00"
+                        },
+                        {
+                          "Curso": "2021-22",
+                          "Nº de alumnos presentados": "24",
+                          "Nº de alumnos aprobados": "23",
+                          "Tasa de éxito (%)": "95.83"
+                        }
+                      ],
+                      [
+                        {
+                          "Curso": "2024-25",
+                          "Nº de alumnos matriculados": "39",
+                          "Nº de alumnos no presentados": "0",
+                          "Tasa de absentismo (%)": "0.00"
+                        },
+                        {
+                          "Curso": "2023-24",
+                          "Nº de alumnos matriculados": "32",
+                          "Nº de alumnos no presentados": "0",
+                          "Tasa de absentismo (%)": "0.00"
+                        },
+                        {
+                          "Curso": "2022-23",
+                          "Nº de alumnos matriculados": "28",
+                          "Nº de alumnos no presentados": "1",
+                          "Tasa de absentismo (%)": "3.57"
+                        },
+                        {
+                          "Curso": "2021-22",
+                          "Nº de alumnos matriculados": "24",
+                          "Nº de alumnos no presentados": "0",
+                          "Tasa de absentismo (%)": "0.00"
+                        }
+                      ],
+                      [
+                        {
+                          "Curso": "2024-25",
+                          "Nº de alumnos matriculados": "39",
+                          "Nº de alumnos no presentados": "0",
+                          "Tasa de absentismo (%)": "0.00"
+                        },
+                        {
+                          "Curso": "2023-24",
+                          "Nº de alumnos matriculados": "32",
+                          "Nº de alumnos no presentados": "0",
+                          "Tasa de absentismo (%)": "0.00"
+                        },
+                        {
+                          "Curso": "2022-23",
+                          "Nº de alumnos matriculados": "28",
+                          "Nº de alumnos no presentados": "0",
+                          "Tasa de absentismo (%)": "0.00"
+                        },
+                        {
+                          "Curso": "2021-22",
+                          "Nº de alumnos matriculados": "24",
+                          "Nº de alumnos no presentados": "0",
+                          "Tasa de absentismo (%)": "0.00"
+                        }
+                      ]
+                    ],
+                    "parrafos": [
+                      "En este anexo se proporciona el histórico de cada tasa durante los 5 cursos académicos anteriores para que se pueda valorar la evolución de la asignatura. En este caso se presentan datos tanto de la convocatoria ordinaria como del curso (convocatoria ordinaria más extraordinaria). En el caso de las asignaturas que imparten docencia en ambos semestres las tasas que se mostrarán en la segunda tabla será la suma de los estudiantes en todas las convocatorias, ordinarias y extraordinaria.",
+                      "2024-25",
+                      "39",
+                      "38",
+                      "97.44",
+                      "2023-24",
+                      "32",
+                      "32",
+                      "100.00",
+                      "2022-23",
+                      "28",
+                      "27",
+                      "96.43",
+                      "2021-22",
+                      "24",
+                      "22",
+                      "91.67",
+                      "2024-25",
+                      "39",
+                      "38",
+                      "97.44",
+                      "2023-24",
+                      "32",
+                      "32",
+                      "100.00",
+                      "2022-23",
+                      "28",
+                      "28",
+                      "100.00",
+                      "2021-22",
+                      "24",
+                      "23",
+                      "95.83",
+                      "2024-25",
+                      "39",
+                      "38",
+                      "97.44",
+                      "2023-24",
+                      "32",
+                      "32",
+                      "100.00",
+                      "2022-23",
+                      "27",
+                      "27",
+                      "100.00",
+                      "2021-22",
+                      "24",
+                      "22",
+                      "91.67",
+                      "2024-25",
+                      "39",
+                      "38",
+                      "97.44",
+                      "2023-24",
+                      "32",
+                      "32",
+                      "100.00",
+                      "2022-23",
+                      "28",
+                      "28",
+                      "100.00",
+                      "2021-22",
+                      "24",
+                      "23",
+                      "95.83",
+                      "* Se consideran como presentados a los alumnos que lo han hecho en la convocatoria ordinaria y/o extraordinaria.",
+                      "2024-25",
+                      "39",
+                      "0",
+                      "0.00",
+                      "2023-24",
+                      "32",
+                      "0",
+                      "0.00",
+                      "2022-23",
+                      "28",
+                      "1",
+                      "3.57",
+                      "2021-22",
+                      "24",
+                      "0",
+                      "0.00",
+                      "2024-25",
+                      "39",
+                      "0",
+                      "0.00",
+                      "2023-24",
+                      "32",
+                      "0",
+                      "0.00",
+                      "2022-23",
+                      "28",
+                      "0",
+                      "0.00",
+                      "2021-22",
+                      "24",
+                      "0",
+                      "0.00",
+                      "* Se consideran NO presentados los alumnos que no lo han hecho ni en la convocatoria ordinaria ni en la extraordinaria.."
+                    ],
+                    "listas": []
+                  },
+                  {
+                    "grupo": "ANEXO 5 - COMPARATIVA CON OTRAS ASIGNATURAS DEL MISMO SEMESTRE",
+                    "vistas": [
+                      "A5.1 Tasa de rendimiento",
+                      "A5.2 Tasa de éxito",
+                      "A5.3 Tasa de absentismo"
+                    ],
+                    "titulos": [],
+                    "tablas": [
+                      [
+                        {
+                          "Código de asignatura": "615001011",
+                          "Asignatura": "Algorítmica Numérica",
+                          "Nº de alumnos matriculados": "56",
+                          "Nº de alumnos aprobados": "39",
+                          "Tasa de rendimiento (%)": "69.64"
+                        },
+                        {
+                          "Código de asignatura": "615001012",
+                          "Asignatura": "Representación e Intercambio de Datos",
+                          "Nº de alumnos matriculados": "50",
+                          "Nº de alumnos aprobados": "49",
+                          "Tasa de rendimiento (%)": "98.00"
+                        },
+                        {
+                          "Código de asignatura": "615001013",
+                          "Asignatura": "Inteligencia Artificial",
+                          "Nº de alumnos matriculados": "52",
+                          "Nº de alumnos aprobados": "50",
+                          "Tasa de rendimiento (%)": "96.15"
+                        },
+                        {
+                          "Código de asignatura": "615001014",
+                          "Asignatura": "Procesamiento de Lenguaje Natural",
+                          "Nº de alumnos matriculados": "53",
+                          "Nº de alumnos aprobados": "42",
+                          "Tasa de rendimiento (%)": "79.25"
+                        },
+                        {
+                          "Código de asignatura": "615001015",
+                          "Asignatura": "Web Semántica, Linked Data y Grafos de Conocimientos",
+                          "Nº de alumnos matriculados": "51",
+                          "Nº de alumnos aprobados": "50",
+                          "Tasa de rendimiento (%)": "98.04"
+                        },
+                        {
+                          "Código de asignatura": "615001016",
+                          "Asignatura": "Programación para Ciencia de Datos",
+                          "Nº de alumnos matriculados": "53",
+                          "Nº de alumnos aprobados": "26",
+                          "Tasa de rendimiento (%)": "49.06"
+                        }
+                      ],
+                      [
+                        {
+                          "Código de asignatura": "615001011",
+                          "Asignatura": "Algorítmica Numérica",
+                          "Nº de alumnos presentados": "52",
+                          "Nº de alumnos aprobados": "39",
+                          "Tasa de éxito (%)": "75.00"
+                        },
+                        {
+                          "Código de asignatura": "615001012",
+                          "Asignatura": "Representación e Intercambio de Datos",
+                          "Nº de alumnos presentados": "50",
+                          "Nº de alumnos aprobados": "49",
+                          "Tasa de éxito (%)": "98.00"
+                        },
+                        {
+                          "Código de asignatura": "615001013",
+                          "Asignatura": "Inteligencia Artificial",
+                          "Nº de alumnos presentados": "50",
+                          "Nº de alumnos aprobados": "50",
+                          "Tasa de éxito (%)": "100.00"
+                        },
+                        {
+                          "Código de asignatura": "615001014",
+                          "Asignatura": "Procesamiento de Lenguaje Natural",
+                          "Nº de alumnos presentados": "51",
+                          "Nº de alumnos aprobados": "42",
+                          "Tasa de éxito (%)": "82.35"
+                        },
+                        {
+                          "Código de asignatura": "615001015",
+                          "Asignatura": "Web Semántica, Linked Data y Grafos de Conocimientos",
+                          "Nº de alumnos presentados": "51",
+                          "Nº de alumnos aprobados": "50",
+                          "Tasa de éxito (%)": "98.04"
+                        },
+                        {
+                          "Código de asignatura": "615001016",
+                          "Asignatura": "Programación para Ciencia de Datos",
+                          "Nº de alumnos presentados": "48",
+                          "Nº de alumnos aprobados": "26",
+                          "Tasa de éxito (%)": "54.17"
+                        }
+                      ],
+                      [
+                        {
+                          "Código de asignatura": "615001011",
+                          "Asignatura": "Algorítmica Numérica",
+                          "Nº de alumnos matriculados": "56",
+                          "Nº de alumnos no presentados": "4",
+                          "Tasa de absentismo (%)": "7.14"
+                        },
+                        {
+                          "Código de asignatura": "615001012",
+                          "Asignatura": "Representación e Intercambio de Datos",
+                          "Nº de alumnos matriculados": "50",
+                          "Nº de alumnos no presentados": "0",
+                          "Tasa de absentismo (%)": "0.00"
+                        },
+                        {
+                          "Código de asignatura": "615001013",
+                          "Asignatura": "Inteligencia Artificial",
+                          "Nº de alumnos matriculados": "52",
+                          "Nº de alumnos no presentados": "2",
+                          "Tasa de absentismo (%)": "3.85"
+                        },
+                        {
+                          "Código de asignatura": "615001014",
+                          "Asignatura": "Procesamiento de Lenguaje Natural",
+                          "Nº de alumnos matriculados": "53",
+                          "Nº de alumnos no presentados": "2",
+                          "Tasa de absentismo (%)": "3.77"
+                        },
+                        {
+                          "Código de asignatura": "615001015",
+                          "Asignatura": "Web Semántica, Linked Data y Grafos de Conocimientos",
+                          "Nº de alumnos matriculados": "51",
+                          "Nº de alumnos no presentados": "0",
+                          "Tasa de absentismo (%)": "0.00"
+                        },
+                        {
+                          "Código de asignatura": "615001016",
+                          "Asignatura": "Programación para Ciencia de Datos",
+                          "Nº de alumnos matriculados": "53",
+                          "Nº de alumnos no presentados": "5",
+                          "Tasa de absentismo (%)": "9.43"
+                        }
+                      ]
+                    ],
+                    "parrafos": [
+                      "A continuación se muestran las tasas para las distintas asignaturas del semestre correspondientes a la convocatoria ordinaria.",
+                      "615001011",
+                      "Algorítmica Numérica",
+                      "56",
+                      "39",
+                      "69.64",
+                      "615001012",
+                      "Representación e Intercambio de Datos",
+                      "50",
+                      "49",
+                      "98.00",
+                      "615001013",
+                      "Inteligencia Artificial",
+                      "52",
+                      "50",
+                      "96.15",
+                      "615001014",
+                      "Procesamiento de Lenguaje Natural",
+                      "53",
+                      "42",
+                      "79.25",
+                      "615001015",
+                      "Web Semántica, Linked Data y Grafos de Conocimientos",
+                      "51",
+                      "50",
+                      "98.04",
+                      "615001016",
+                      "Programación para Ciencia de Datos",
+                      "53",
+                      "26",
+                      "49.06",
+                      "615001011",
+                      "Algorítmica Numérica",
+                      "52",
+                      "39",
+                      "75.00",
+                      "615001012",
+                      "Representación e Intercambio de Datos",
+                      "50",
+                      "49",
+                      "98.00",
+                      "615001013",
+                      "Inteligencia Artificial",
+                      "50",
+                      "50",
+                      "100.00",
+                      "615001014",
+                      "Procesamiento de Lenguaje Natural",
+                      "51",
+                      "42",
+                      "82.35",
+                      "615001015",
+                      "Web Semántica, Linked Data y Grafos de Conocimientos",
+                      "51",
+                      "50",
+                      "98.04",
+                      "615001016",
+                      "Programación para Ciencia de Datos",
+                      "48",
+                      "26",
+                      "54.17",
+                      "615001011",
+                      "Algorítmica Numérica",
+                      "56",
+                      "4",
+                      "7.14",
+                      "615001012",
+                      "Representación e Intercambio de Datos",
+                      "50",
+                      "0",
+                      "0.00",
+                      "615001013",
+                      "Inteligencia Artificial",
+                      "52",
+                      "2",
+                      "3.85",
+                      "615001014",
+                      "Procesamiento de Lenguaje Natural",
+                      "53",
+                      "2",
+                      "3.77",
+                      "615001015",
+                      "Web Semántica, Linked Data y Grafos de Conocimientos",
+                      "51",
+                      "0",
+                      "0.00",
+                      "615001016",
+                      "Programación para Ciencia de Datos",
+                      "53",
+                      "5",
+                      "9.43"
+                    ],
+                    "listas": []
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "notas_globales": [
+          "Introducción Los datos ofrecidos a continuación sólo hacen referencia a estudiantes que están cursando la titulación objeto del Informe , por lo tanto Alumnos de Erasmus, Séneca, de Doctorado, etc. no aparecerán a pesar de estar en el Acta de la Asignatura. No obstante, a efectos de control, en el Anexo 3 se incluyen los datos y resultados teniendo en cuenta a todos los demás estudiantes tal y como constan en las actas de la asignatura. Pueden existir variaciones dentro del Informe respecto al número de alumnos de una misma asignatura, si los datos han sido tomados en distintas fechas, debido a que cualquier consulta de datos obedece a un suceso de variación temporal y así debe entenderse. Todas las tablas ofrecidas a continuación han sido elaboradas en el Rectorado a partir de los datos existentes en la base de datos institucional AGORA.",
+          "Distribución de alumnos por el número de veces que se han matriculado en la asignatura.",
+          "Distribución de alumnos por número de créditos matriculados en el semestre.",
+          "Distribución de alumnos por dedicación (según matrícula).",
+          "Los datos proporcionados en este Anexo se refieren a los resultados obtenidos durante la convocatoria ordinaria de la asignatura.",
+          "Relación porcentual entre el nº de alumnos aprobados y el nº de alumnos matriculados.",
+          "Distribución por el nº de matrículas del alumno en la asignatura:",
+          "Relación porcentual entre el nº de alumnos aprobados durante el curso y el nº total de matrículas acumuladas.",
+          "Relación porcentual entre el nº de alumnos aprobados y el nº de alumnos presentados.",
+          "Distribución por el nº de convocatorias en las que se ha presentado el alumno:",
+          "Relación porcentual entre el nº de alumnos aprobados en la convocatoria y el nº total de convocatorias en las que se ha presentado el alumno en dicha asignatura.",
+          "Relación porcentual entre el nº de alumnos NO presentados y el nº de alumnos matriculados.",
+          "Tal y como se ha indicado en la introducción de estos anexos, se proporcionan aquí los resultados según las actas de la asignatura para la convocatoria ordinaria, a pesar de que incluyen alumnos que no son estrictamente de la Titulación (Erasmus, Séneca, de Doctorado, etc.) objeto del Informe.",
+          "En este anexo se proporciona el histórico de cada tasa durante los 5 cursos académicos anteriores para que se pueda valorar la evolución de la asignatura. En este caso se presentan datos tanto de la convocatoria ordinaria como del curso (convocatoria ordinaria más extraordinaria). En el caso de las asignaturas que imparten docencia en ambos semestres las tasas que se mostrarán en la segunda tabla será la suma de los estudiantes en todas las convocatorias, ordinarias y extraordinaria.",
+          "A continuación se muestran las tasas para las distintas asignaturas del semestre correspondientes a la convocatoria ordinaria."
+        ]
+      },
+      "datos-descriptivos": {
+        "meta": {
+          "source_name": "datos-descriptivos",
+          "url": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/datos-descriptivos",
+          "page_title": "GAUSS - UPM",
+          "report_title": "Informes de Asignatura | Consulta de informe",
+          "pdf_url": "https://www.upm.es/gauss/includes_ajax/informes_asignatura/gestion/gia_gestionar_descarga_pdf.upm?archivo=IA_61CD_615001015_1S_2025-26_2",
+          "estado": "BORRADOR",
+          "nombre_asignatura_completo": "Web Semántica, Linked Data y Grafos de Conocimientos - 615001015 - Grado en Ciencia de Datos e Inteligencia Artificial - 61CD - 2º Curso",
+          "seccion_detectada": "1. Datos de la asignatura"
+        },
+        "menu_informe": [
+          {
+            "id": "1",
+            "label": "Resumen de resultados",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/anexos",
+            "active": false
+          },
+          {
+            "id": "2",
+            "label": "Datos de la asignatura",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/datos-descriptivos",
+            "active": true
+          },
+          {
+            "id": "3",
+            "label": "Propuestas de mejora del curso anterior",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/mejoras-previas",
+            "active": false
+          },
+          {
+            "id": "4",
+            "label": "Valoración de la evaluación",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/evaluacion",
+            "active": false
+          },
+          {
+            "id": "5",
+            "label": "Tasas de resultados",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/tasas",
+            "active": false
+          },
+          {
+            "id": "6",
+            "label": "Coordinación entre asignaturas",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/coordinacion-asignaturas",
+            "active": false
+          },
+          {
+            "id": "7",
+            "label": "Propuestas de mejora",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/mejoras",
+            "active": false
+          },
+          {
+            "id": "8",
+            "label": "Consideraciones finales",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/consideraciones",
+            "active": false
+          }
+        ],
+        "contenido": {
+          "1. Datos de la asignatura": {
+            "1.1 Identificación de la asignatura y periodo *": {
+              "Titulación": "61CD - Grado en Ciencia de Datos e Inteligencia Artificial",
+              "Curso": "Curso 2",
+              "Codigo": "615001015",
+              "Asignatura": "Web Semántica, Linked Data y Grafos de Conocimientos",
+              "Créditos": "3",
+              "Centro responsable de la Titulación": "E.T.S. de Ing. de Sistemas Informáticos",
+              "Departamento responsable": "D220 - Sistemas Informáticos",
+              "Otros departamentos implicados": null,
+              "Tipo": "Obligatoria",
+              "Semestre": "Semestre 3",
+              "Curso Académico": "2025-26",
+              "Periodo Impartición": "Septiembre - Enero"
+            },
+            "1.2 Profesorado": [
+              [
+                [
+                  "",
+                  "Profesor",
+                  "Departamento"
+                ],
+                [
+                  "Coordinador que cumplimenta la Guía de Aprendizaje",
+                  "Andrea Jesus Cimmino Arriaga",
+                  "(D220) Sistemas Informáticos"
+                ],
+                [
+                  "Coordinador que cumplimenta el Informe de Asignatura",
+                  "Andrea Jesus Cimmino Arriaga",
+                  "(D220) Sistemas Informáticos"
+                ]
+              ],
+              {
+                "Profesorado de la asignatura": "Departamento",
+                "Andrea Jesus Cimmino Arriaga": "(D220) Sistemas Informáticos"
+              }
+            ]
+          }
+        },
+        "notas_globales": []
+      },
+      "mejoras-previas": {
+        "meta": {
+          "source_name": "mejoras-previas",
+          "url": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/mejoras-previas",
+          "page_title": "GAUSS - UPM",
+          "report_title": "Informes de Asignatura | Consulta de informe",
+          "pdf_url": "https://www.upm.es/gauss/includes_ajax/informes_asignatura/gestion/gia_gestionar_descarga_pdf.upm?archivo=IA_61CD_615001015_1S_2025-26_2",
+          "estado": "BORRADOR",
+          "nombre_asignatura_completo": "Web Semántica, Linked Data y Grafos de Conocimientos - 615001015 - Grado en Ciencia de Datos e Inteligencia Artificial - 61CD - 2º Curso",
+          "seccion_detectada": "2. Propuestas de mejora del curso anterior"
+        },
+        "menu_informe": [
+          {
+            "id": "1",
+            "label": "Resumen de resultados",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/anexos",
+            "active": false
+          },
+          {
+            "id": "2",
+            "label": "Datos de la asignatura",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/datos-descriptivos",
+            "active": false
+          },
+          {
+            "id": "3",
+            "label": "Propuestas de mejora del curso anterior",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/mejoras-previas",
+            "active": true
+          },
+          {
+            "id": "4",
+            "label": "Valoración de la evaluación",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/evaluacion",
+            "active": false
+          },
+          {
+            "id": "5",
+            "label": "Tasas de resultados",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/tasas",
+            "active": false
+          },
+          {
+            "id": "6",
+            "label": "Coordinación entre asignaturas",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/coordinacion-asignaturas",
+            "active": false
+          },
+          {
+            "id": "7",
+            "label": "Propuestas de mejora",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/mejoras",
+            "active": false
+          },
+          {
+            "id": "8",
+            "label": "Consideraciones finales",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/consideraciones",
+            "active": false
+          }
+        ],
+        "contenido": {
+          "2. Propuestas de mejora del curso anterior": {
+            "2.1 Listado de las mejoras propuestas el curso anterior al curso objeto del Informe por el coordinador de la asignatura": "No se definieron propuestas de mejora el curso anterior.",
+            "2.2 Observación general sobre la implementación y resultados de las propuestas anteriores": "Ni aplica ya que no hubo propuestas de mejora"
+          }
+        },
+        "notas_globales": []
+      },
+      "evaluacion": {
+        "meta": {
+          "source_name": "evaluacion",
+          "url": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/evaluacion",
+          "page_title": "GAUSS - UPM",
+          "report_title": "Informes de Asignatura | Consulta de informe",
+          "pdf_url": "https://www.upm.es/gauss/includes_ajax/informes_asignatura/gestion/gia_gestionar_descarga_pdf.upm?archivo=IA_61CD_615001015_1S_2025-26_2",
+          "estado": "BORRADOR",
+          "nombre_asignatura_completo": "Web Semántica, Linked Data y Grafos de Conocimientos - 615001015 - Grado en Ciencia de Datos e Inteligencia Artificial - 61CD - 2º Curso",
+          "seccion_detectada": "3. Valoración de la evaluación"
+        },
+        "menu_informe": [
+          {
+            "id": "1",
+            "label": "Resumen de resultados",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/anexos",
+            "active": false
+          },
+          {
+            "id": "2",
+            "label": "Datos de la asignatura",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/datos-descriptivos",
+            "active": false
+          },
+          {
+            "id": "3",
+            "label": "Propuestas de mejora del curso anterior",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/mejoras-previas",
+            "active": false
+          },
+          {
+            "id": "4",
+            "label": "Valoración de la evaluación",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/evaluacion",
+            "active": true
+          },
+          {
+            "id": "5",
+            "label": "Tasas de resultados",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/tasas",
+            "active": false
+          },
+          {
+            "id": "6",
+            "label": "Coordinación entre asignaturas",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/coordinacion-asignaturas",
+            "active": false
+          },
+          {
+            "id": "7",
+            "label": "Propuestas de mejora",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/mejoras",
+            "active": false
+          },
+          {
+            "id": "8",
+            "label": "Consideraciones finales",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/consideraciones",
+            "active": false
+          }
+        ],
+        "contenido": {
+          "3. Valoración de la evaluación": {
+            "_contenido": "Siguiendo las indicaciones de la Subdirección de Calidad, a continuación se expone la valoración cualitativa acerca del grado de adquisición de todas las competencias asociadas a la asignatura ?Web Semántica, Linked Data y Grafos de Conocimientos?. Se distinguen las competencias no transversales (básicas y específicas) y las competencias transversales (generales), describiendo también las principales actividades diseñadas para su desarrollo y evaluación.\nCompetencias Básicas (CB):\nCB01.\nEl estudiantado ha demostrado poseer y comprender conocimientos sobre la Web Semántica, Linked Data y grafos de conocimiento, conectando estos conceptos con el estado del arte de la ciencia de datos. Para favorecer la asimilación de dichos contenidos, se han impartido clases magistrales y sesiones prácticas donde se abordan tanto fundamentos teóricos como ejemplos reales. La evaluación de esta competencia se ha llevado a cabo mediante pruebas teórico-prácticas y actividades en clase, permitiendo comprobar la solidez de la base conceptual adquirida.\nCB02\n. El alumnado ha sabido transferir los conocimientos teóricos al ámbito práctico, demostrando competencias en la resolución de problemas y en la defensa de soluciones técnicas. Para ello, se han desarrollado prácticas de laboratorio orientadas a la creación y consulta de grafos de conocimiento, así como actividades aplicadas donde el estudiante debe tomar decisiones de diseño. La evaluación se ha realizado a través de entregas prácticas y su correspondiente justificación.\nCB03\n. A lo largo del curso, el estudiantado ha demostrado la capacidad de reunir e interpretar datos relevantes, así como de emitir juicios con una dimensión social y ética. El uso de conjuntos de datos abiertos ha permitido reflexionar sobre la calidad, procedencia y reutilización de la información. Esta competencia se ha evaluado mediante informes y ejercicios prácticos donde se analizan diferentes fuentes de datos.\nCB04\n. La asignatura ha contribuido a mejorar la capacidad de comunicar información, ideas y soluciones tanto a públicos especializados como no especializados. La realización de exposiciones orales y la elaboración de documentación técnica han permitido trabajar esta competencia, evaluándose mediante rúbricas que consideran la claridad, estructuración y adecuación del discurso.\nCB05\n. Se ha fomentado la autonomía en el aprendizaje mediante el uso de recursos adicionales, repositorios y documentación técnica, incentivando la exploración individual de herramientas y tecnologías relacionadas con la Web Semántica. La evaluación de esta competencia se ha basado en la calidad y originalidad de las soluciones propuestas en las actividades prácticas.\nCompetencias Específicas (CE):\nCE11\n. El alumnado ha desarrollado la capacidad de aplicar métodos de ciencia de datos e inteligencia artificial en el desarrollo de soluciones basadas en datos semánticos. Las actividades prácticas han permitido integrar diferentes herramientas y tecnologías, observándose un alto grado de competencia en la implementación de soluciones funcionales. La evaluación se ha realizado mediante la revisión de prácticas y ejercicios aplicados.\nCE14\n. Los estudiantes han demostrado competencia en la adquisición, representación y explotación del conocimiento mediante el uso de ontologías y grafos de conocimiento. Las actividades de modelado y consulta con lenguajes como SPARQL han permitido consolidar estos conocimientos, evaluándose tanto la corrección como la eficiencia de las soluciones propuestas.\nCompetencias Generales (CG):\nLas competencias generales asociadas a la asignatura incluyen la capacidad de trabajo en equipo, la planificación y organización de tareas, la resolución de problemas y la selección de tecnologías adecuadas. A lo largo del curso, las actividades prácticas han fomentado la autonomía y la toma de decisiones técnicas, así como la capacidad de adaptación a distintos escenarios. Asimismo, se han promovido reflexiones sobre el impacto social y ético del uso de datos. La evaluación de estas competencias se ha llevado a cabo mediante la observación del trabajo del estudiante, la calidad de las entregas y la participación activa en las actividades propuestas.\nConclusiones Generales y Evaluación:\nEn conjunto, las metodologías docentes empleadas han permitido alcanzar un alto grado de adquisición de las competencias previstas en la asignatura. La combinación de actividades teóricas y prácticas ha facilitado tanto la comprensión conceptual como la aplicación de los conocimientos, observándose un rendimiento académico elevado y homogéneo en el conjunto del estudiantado."
+          }
+        },
+        "notas_globales": []
+      },
+      "tasas": {
+        "meta": {
+          "source_name": "tasas",
+          "url": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/tasas",
+          "page_title": "GAUSS - UPM",
+          "report_title": "Informes de Asignatura | Consulta de informe",
+          "pdf_url": "https://www.upm.es/gauss/includes_ajax/informes_asignatura/gestion/gia_gestionar_descarga_pdf.upm?archivo=IA_61CD_615001015_1S_2025-26_2",
+          "estado": "BORRADOR",
+          "nombre_asignatura_completo": "Web Semántica, Linked Data y Grafos de Conocimientos - 615001015 - Grado en Ciencia de Datos e Inteligencia Artificial - 61CD - 2º Curso",
+          "seccion_detectada": "4. Tasas de resultados"
+        },
+        "menu_informe": [
+          {
+            "id": "1",
+            "label": "Resumen de resultados",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/anexos",
+            "active": false
+          },
+          {
+            "id": "2",
+            "label": "Datos de la asignatura",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/datos-descriptivos",
+            "active": false
+          },
+          {
+            "id": "3",
+            "label": "Propuestas de mejora del curso anterior",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/mejoras-previas",
+            "active": false
+          },
+          {
+            "id": "4",
+            "label": "Valoración de la evaluación",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/evaluacion",
+            "active": false
+          },
+          {
+            "id": "5",
+            "label": "Tasas de resultados",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/tasas",
+            "active": true
+          },
+          {
+            "id": "6",
+            "label": "Coordinación entre asignaturas",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/coordinacion-asignaturas",
+            "active": false
+          },
+          {
+            "id": "7",
+            "label": "Propuestas de mejora",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/mejoras",
+            "active": false
+          },
+          {
+            "id": "8",
+            "label": "Consideraciones finales",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/consideraciones",
+            "active": false
+          }
+        ],
+        "contenido": {
+          "4. Tasas de resultados": {
+            "_contenido": {
+              "_tipo": "mixed_section",
+              "titles": [
+                "4.1 Grado de satisfacción con las tasas de resultados obtenidas",
+                "4.2 Desajustes producidos en previsiones y tasas"
+              ],
+              "values": [
+                [
+                  {
+                    "Satisfacción tasa de rendimiento (aprobados/matriculados)": "9",
+                    "Satisfacción tasa de éxito (aprobados/presentados)": "10",
+                    "Satisfacción tasa de absentismo (no presentados/matriculados)": "10"
+                  }
+                ],
+                {
+                  "parrafos": [
+                    "Escala",
+                    "NP (no procede): La pregunta no es aplicable en la asignatura.",
+                    "0: El grado de satisfacción es nulo.",
+                    "10: El grado de satisfacción es completo."
+                  ]
+                },
+                "No ha habido desajuste ente las previsiones y los resultados obtenidos."
+              ],
+              "textos": []
+            }
+          }
+        },
+        "notas_globales": []
+      },
+      "coordinacion-asignaturas": {
+        "meta": {
+          "source_name": "coordinacion-asignaturas",
+          "url": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/coordinacion-asignaturas",
+          "page_title": "GAUSS - UPM",
+          "report_title": "Informes de Asignatura | Consulta de informe",
+          "pdf_url": "https://www.upm.es/gauss/includes_ajax/informes_asignatura/gestion/gia_gestionar_descarga_pdf.upm?archivo=IA_61CD_615001015_1S_2025-26_2",
+          "estado": "BORRADOR",
+          "nombre_asignatura_completo": "Web Semántica, Linked Data y Grafos de Conocimientos - 615001015 - Grado en Ciencia de Datos e Inteligencia Artificial - 61CD - 2º Curso",
+          "seccion_detectada": "5. Coordinación entre asignaturas"
+        },
+        "menu_informe": [
+          {
+            "id": "1",
+            "label": "Resumen de resultados",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/anexos",
+            "active": false
+          },
+          {
+            "id": "2",
+            "label": "Datos de la asignatura",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/datos-descriptivos",
+            "active": false
+          },
+          {
+            "id": "3",
+            "label": "Propuestas de mejora del curso anterior",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/mejoras-previas",
+            "active": false
+          },
+          {
+            "id": "4",
+            "label": "Valoración de la evaluación",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/evaluacion",
+            "active": false
+          },
+          {
+            "id": "5",
+            "label": "Tasas de resultados",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/tasas",
+            "active": false
+          },
+          {
+            "id": "6",
+            "label": "Coordinación entre asignaturas",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/coordinacion-asignaturas",
+            "active": true
+          },
+          {
+            "id": "7",
+            "label": "Propuestas de mejora",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/mejoras",
+            "active": false
+          },
+          {
+            "id": "8",
+            "label": "Consideraciones finales",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/consideraciones",
+            "active": false
+          }
+        ],
+        "contenido": {
+          "5. Coordinación entre asignaturas": {
+            "5.2 Coordinación vertical con otras asignaturas de la misma materia o de materias afines": [
+              "5.2.1 Carencias en la preparación inicial de los estudiantes en los siguientes aspectos que se deberían adquirir o reforzar en asignaturas previas:",
+              "No se define ninguna carencia en la preparación inicial de los estudiantes.",
+              "5.2.2 La preparación de los estudiantes que han superado la asignatura, puede implicar algunas carencias (vacíos o duplicidades) para abordar asignaturas de los siguientes semestres:",
+              "No se define ninguna carencia para abordar las siguientes asignaturas por parte del estudiante.",
+              "5.2.3 Propuestas a la Comisión de Coordinación Académica (COA) sobre la coordinación vertical:",
+              "Ninguna"
+            ],
+            "_contenido": {
+              "_tipo": "mixed_section",
+              "titles": [
+                "5.1 Coordinación horizontal con el resto de asignaturas del mismo semestre"
+              ],
+              "values": [
+                "5.1.1 Valoración sobre el número de reuniones de la\n Comisión de Coordinación Académica (CCA):\nCorrecto",
+                "5.1.2 Sugerencias a la CCA para mejorar la coordinación entre asignaturas del mismo semestre:",
+                "Ninguna"
+              ],
+              "textos": []
+            }
+          }
+        },
+        "notas_globales": []
+      },
+      "mejoras": {
+        "meta": {
+          "source_name": "mejoras",
+          "url": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/mejoras",
+          "page_title": "GAUSS - UPM",
+          "report_title": "Informes de Asignatura | Consulta de informe",
+          "pdf_url": "https://www.upm.es/gauss/includes_ajax/informes_asignatura/gestion/gia_gestionar_descarga_pdf.upm?archivo=IA_61CD_615001015_1S_2025-26_2",
+          "estado": "BORRADOR",
+          "nombre_asignatura_completo": "Web Semántica, Linked Data y Grafos de Conocimientos - 615001015 - Grado en Ciencia de Datos e Inteligencia Artificial - 61CD - 2º Curso",
+          "seccion_detectada": "6. Propuestas de mejora"
+        },
+        "menu_informe": [
+          {
+            "id": "1",
+            "label": "Resumen de resultados",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/anexos",
+            "active": false
+          },
+          {
+            "id": "2",
+            "label": "Datos de la asignatura",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/datos-descriptivos",
+            "active": false
+          },
+          {
+            "id": "3",
+            "label": "Propuestas de mejora del curso anterior",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/mejoras-previas",
+            "active": false
+          },
+          {
+            "id": "4",
+            "label": "Valoración de la evaluación",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/evaluacion",
+            "active": false
+          },
+          {
+            "id": "5",
+            "label": "Tasas de resultados",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/tasas",
+            "active": false
+          },
+          {
+            "id": "6",
+            "label": "Coordinación entre asignaturas",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/coordinacion-asignaturas",
+            "active": false
+          },
+          {
+            "id": "7",
+            "label": "Propuestas de mejora",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/mejoras",
+            "active": true
+          },
+          {
+            "id": "8",
+            "label": "Consideraciones finales",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/consideraciones",
+            "active": false
+          }
+        ],
+        "contenido": {
+          "6. Propuestas de mejora": {
+            "6.1 Propuestas de mejora planteadas para el próximo curso*": "No se definen propuestas de mejora para el próximo curso.",
+            "6.2 Tasas previstas para el próximo curso": [
+              {
+                "Tasa de rendimiento (aprobados/matriculados)": "99 %",
+                "Tasa de éxito (aprobados/presentados)": "100 %",
+                "Tasa de absentismo (no presentados/matriculados)": "1 %"
+              }
+            ]
+          }
+        },
+        "notas_globales": []
+      },
+      "consideraciones": {
+        "meta": {
+          "source_name": "consideraciones",
+          "url": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/consideraciones",
+          "page_title": "GAUSS - UPM",
+          "report_title": "Informes de Asignatura | Consulta de informe",
+          "pdf_url": "https://www.upm.es/gauss/includes_ajax/informes_asignatura/gestion/gia_gestionar_descarga_pdf.upm?archivo=IA_61CD_615001015_1S_2025-26_2",
+          "estado": "BORRADOR",
+          "nombre_asignatura_completo": "Web Semántica, Linked Data y Grafos de Conocimientos - 615001015 - Grado en Ciencia de Datos e Inteligencia Artificial - 61CD - 2º Curso",
+          "seccion_detectada": "7. Consideraciones finales"
+        },
+        "menu_informe": [
+          {
+            "id": "1",
+            "label": "Resumen de resultados",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/anexos",
+            "active": false
+          },
+          {
+            "id": "2",
+            "label": "Datos de la asignatura",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/datos-descriptivos",
+            "active": false
+          },
+          {
+            "id": "3",
+            "label": "Propuestas de mejora del curso anterior",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/mejoras-previas",
+            "active": false
+          },
+          {
+            "id": "4",
+            "label": "Valoración de la evaluación",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/evaluacion",
+            "active": false
+          },
+          {
+            "id": "5",
+            "label": "Tasas de resultados",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/tasas",
+            "active": false
+          },
+          {
+            "id": "6",
+            "label": "Coordinación entre asignaturas",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/coordinacion-asignaturas",
+            "active": false
+          },
+          {
+            "id": "7",
+            "label": "Propuestas de mejora",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/mejoras",
+            "active": false
+          },
+          {
+            "id": "8",
+            "label": "Consideraciones finales",
+            "href": "https://www.upm.es/gauss/principal.upm/informes_asignatura/consulta/consulta-informes_asignatura/2025-26/1S/61CD/615001015/2/consideraciones",
+            "active": true
+          }
+        ],
+        "contenido": {
+          "7. Consideraciones finales": {
+            "_contenido": "La evolución positiva de la asignatura se ve reflejada en la puntuación creciente entre su primer año, 2021, y el actual. Los estudiantes han ido valorando cada vez más positivamente la asignatura lo que refleja que esta ha evolucionado correctamente. Sin embargo, es cierto que se observa este año una participación ínfima del alumnado en la participación de las encuestas docentes."
+          }
+        },
+        "notas_globales": []
+      }
+    }
+  }
+]
