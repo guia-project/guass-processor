@@ -126,8 +126,8 @@ def evaluate_count(gold_qr, pred_qr):
 
 
     local_metrics = compute_metrics(tp, fp, fn)
-    local_metrics["fp_inst"] = fp_inst
-    local_metrics["fn_inst"] = fn_inst
+    local_metrics["false_positives"] = fp_inst
+    local_metrics["false_negatives"] = fn_inst
     return local_metrics
 
 if __name__ == "__main__":

@@ -9,6 +9,7 @@ from concurrent.futures import ThreadPoolExecutor
 import copy
 from pathlib import Path
 import requests
+import urllib.request
 
 
 KG_EXTRACTOR_WORKERS = 8
@@ -129,7 +130,7 @@ class GaussIndexer:
         if len(years)==0:
             available_years = self.get_list_of_years(driver=driver)
         study_plans = self.list_study_plans(driver=driver)
-    
+        time.sleep(3)
         records = []
         for academic_year in available_years:
             for semester in ["1S", "2S"]:
@@ -156,7 +157,7 @@ class GaussIndexer:
         return pd.DataFrame(records)
 
     '''
-        RDF extraction methods
+        JSON extraction methods
     '''
 
     def __extract_description(self, driver, url):
@@ -604,12 +605,12 @@ class GaussIndexer:
         driver.quit()
 
 
-    def extract_structured_json(self, local_index=True, years=None, study_plan_code=None):
+    def extract_structured_json(self, index_file="gauss-index.csv", local_index=True, years=None, study_plan_code=None):
         global KG_EXTRACTOR_WORKERS
         if not local_index:
             print("Please run first the method build_gauss_index()")
         else:
-            df = pd.read_csv("gauss-index.csv")
+            df = pd.read_csv(index_file)
             if study_plan_code:
                 df = df.loc[df['study_plan_code'] == study_plan_code]
             if years:
@@ -620,31 +621,28 @@ class GaussIndexer:
 
     def dowload_pdf(self, row):
         try:
-            import urllib.request
             file_name = "./guides_data/" + str(row.subject_code) + "-" + str(row.study_plan_code) + "-" + str(
                 row.academic_year) + ".pdf"
 
             time.sleep(0.5)
-            download_link = "https://www.upm.es/gauss/includes_ajax/guias/gestion/gga_gestionar_descarga_pdf.upm?archivo="+str(row.study_plan_code)+"_"+str(row.subject_code)+"_"+str(row.semester)+"_"+str(row.academic_year)
 
+            download_link = "https://www.upm.es/comun_gauss/publico/guias/"+str(row.academic_year)+"/"+str(row.semester)+"/GA_"+str(row.study_plan_code)+"_"+str(row.subject_code)+"_"+str(row.semester)+"_"+str(row.academic_year)+".pdf"
             response = requests.get(download_link)
-
             if response.status_code == 200:
                 with open(file_name, 'wb') as file:
                     file.write(response.content)
-                print('File downloaded successfully')
             else:
-                print('Failed to download file')
+                print('Failed to download file: ', download_link)
         except Exception as e:
             print(e, " -> ", row.guide_pdf_url)
 
 
 
-    def download_pdfs(self, local_index=True, years=None, study_plan_code=None):
+    def download_pdfs(self, index_file ="gauss-index.csv", local_index=True, years=None, study_plan_code=None):
         if not local_index:
             print("Please run first the method build_gauss_index()")
         else:
-            df = pd.read_csv("gauss-index.csv")
+            df = pd.read_csv(index_file)
             if study_plan_code:
                 df = df.loc[df['study_plan_code'] == study_plan_code]
             if years:
@@ -659,14 +657,14 @@ class GaussIndexer:
 if __name__ == '__main__':
     print("Indexing gauss, be sure to be connected to the UPM vpn")
     print("No personal data will be stored anyhow")
-    #username= input("type gauss username: ")
-    #password= input("Type gauss password: ")
+    username= input("type gauss username: ")
+    password= input("Type gauss password: ")
 
-    indexer = GaussIndexer("", "")
-    #df = indexer.build_gauss_index(only_last_year=False, years=["2025-26"])
+    indexer = GaussIndexer(username, password)
+    #df = indexer.build_gauss_index(only_last_year=False)
     #print("-------")
     #print(df)
-    #df.to_csv("./gauss-index.csv", index=False, encoding="utf-8")
-    indexer.extract_structured_json()
+    #df.to_csv("./all2-gauss-index.csv", index=False, encoding="utf-8")
+    #indexer.extract_structured_json()
     # pdf downloader
     indexer.download_pdfs(years="2025-26")

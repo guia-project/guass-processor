@@ -9,7 +9,7 @@ import re
 
 SCH = Namespace("https://schema.org/")
 GUIA = Namespace("https://guia.org/")
-DATA = Namespace("http://data.org/")
+DATA = Namespace("https://guia-kg.skai.etsisi.upm.es/resource/")
 OM = Namespace("http://www.ontology-of-units-of-measure.org/resource/om-2/")
 
 SUMMARY_PREFIX = "resumen/"
@@ -29,7 +29,7 @@ CONTEXT = {
     'Idioma de impartición' : { 'term' : SCH.inLanguage,  'lang' : 'es' },
     'Otros idiomas de impartición' : { 'term' : SCH.inLanguage,  'lang' : 'es' },
     'No Créditos': {'term': GUIA.numberOfCredits, 'xsd': XSD.decimal },
-    'Curso Académico': {'term': GUIA.teachingPeriod, 'xsd': XSD.gYear },
+    'Curso Académico': {'term': GUIA.teachingPeriod },
     'Período de impartición': {'term': GUIA.teachingPeriodMonths, 'lang': 'es'},
     'Curso': None,  # Transformation made manually in rdf_course_instance() for enriching course
     'resumen/horas_totales' : { 'term' : GUIA.totalHours,  'lang' : 'es' }, #owl:equivalentProperty SCH.courseWorkload
@@ -122,13 +122,15 @@ def rdf_course(course_data):
     degree = buildURIRef(DATA, course_data["Titulación"])
     #course_graph.add((degree, RDF.type, GUIA.Degree))  # type
     # Type specialization
-    degree_name = course_data["Titulación"].lower()
+    degree_name = course_data["Titulación"].lower().replace("á", "a")
     if "master universitario" in degree_name or " master " in degree_name:
         course_graph.add((degree, RDF.type, GUIA.MasterDegree))
     else:
         course_graph.add((degree, RDF.type, GUIA.BachelorDegree))
     # Triplets translation
-    course_graph.add((degree, SCH.name, Literal(course_data["Titulación"], lang="es"))) # name
+    title_elements = course_data["Titulación"].split("-")
+    course_graph.add((degree, SCH.name, Literal(' '.join(title_elements[1:].strip()), lang="es"))) # name
+    course_graph.add((degree, GUIA.degreeCode, Literal(title_elements[0].strip(), lang="es"))) # name
     course_graph.add((degree, GUIA.hasCourse, course_uri))  # type
     # ---- Organisation RDF
     organisation = buildURIRef(DATA, course_data["Centro responsable de la titulación"].split("-")[1].strip())
@@ -158,6 +160,7 @@ def rdf_course_instance(full_data, course_uri):
 
     # Triplets translation
     course_inst_graph += build_rdf_from_json(data, course_inst_uri)
+    course_inst_graph.add((course_inst_uri, SCH.name,Literal(full_data['Datos descriptivos']['Nombre de la Asignatura'], lang="es", normalize=True)))
     course_inst_graph.add((course_inst_uri, GUIA.periodStaringtMonth,
                            Literal(data['Período de impartición'].split("-")[0].strip(), lang="es", normalize=True)))
     course_inst_graph.add((course_inst_uri, GUIA.periodEndingMonth,
@@ -229,7 +232,7 @@ def rdf_competencies_leraningres(data, course_inst_uri):
     if competencies_key in document_keys:
         for line in data[competencies_key]:
             elems = line.split("-")
-            compentency_uri = buildURIRef(DATA, elems[0].strip())
+            compentency_uri = buildURIRef(course_inst_uri+"/", elems[0].strip())
             comp_learres_graph.add((compentency_uri, RDF.type, GUIA.Competency))  # type
             comp_learres_graph.add((compentency_uri, GUIA.competencyDescription, Literal(elems[1].strip(),lang="es", normalize=True)))  # type
             comp_learres_graph.add((compentency_uri, GUIA.competencyCode, Literal(elems[0].strip())))  # type
@@ -237,7 +240,7 @@ def rdf_competencies_leraningres(data, course_inst_uri):
     if learning_result_key in document_keys:
         for line in data[learning_result_key]:
             elems = line.split("-")
-            learning_res_uri = buildURIRef(DATA, elems[0].strip())
+            learning_res_uri = buildURIRef(course_inst_uri+"/", elems[0].strip())
             comp_learres_graph.add((learning_res_uri, RDF.type, GUIA.LearningResult))  # type
             comp_learres_graph.add((learning_res_uri, GUIA.learningResultDescription, Literal(elems[1].strip(),lang="es", normalize=True)))  # type
             comp_learres_graph.add((learning_res_uri, GUIA.learningResultCode, Literal(elems[0].strip(), normalize=True)))  # type
@@ -249,6 +252,7 @@ def rdf_syllabus(full_data, course_inst_uri):
     syllabus_graph = Graph()
 
     syllabus_uri = buildURIRef(course_inst_uri+"/", 'syllabus')
+    syllabus_graph.add((course_inst_uri, GUIA.hasSyllabus, syllabus_uri))
     syllabus_graph.add((syllabus_uri, RDF.type, GUIA.Syllabus))
 
     for text in full_data['Temario']:
@@ -402,15 +406,47 @@ def kg_from_file(file_path, store_file=True):
     return graph
 
 '''
+    Creates the guides availability
+'''
+import os
+def kg_of_pdf_availability_file(file_path, graph):
+    if os.path.exists(file_path):
+        pdf_file_name = file_path.split("/")[-1].replace(".pdf", "")
+        name_elements = pdf_file_name.split("-")
+        academic_year = name_elements[2]+"-"+name_elements[3]
+        course_identifier= name_elements[0]+"/"+academic_year
+        course_uri = buildURIRef(DATA, course_identifier)
+
+        semester = "1S"
+        query = """ PREFIX guia: <https://guia.org/> SELECT ?semester WHERE { ?course_uri guia:teachingPeriodMonths ?semester . } """
+        qres = graph.query(
+            query,
+            initBindings={"course_uri": course_uri}
+        )
+        for row in qres:
+            if "Febrero-Junio" in row.semester:
+                semester = "2S"
+
+        available_url = "https://www.upm.es/comun_gauss/publico/guias/" + academic_year + "/" + semester + "/GA_" + name_elements[1] + "_" + name_elements[0] + "_" + semester + "_" + academic_year + ".pdf"
+        graph.add((course_uri, GUIA.publishedAt, URIRef(available_url)))
+
+    return graph
+
+'''
     Creates the KG from a given directory filled with json files
 '''
 def kg_from_directory(directory_path, dump_file="/dump.ttl", store_dump=True, store_fragments=True):
     graph = Graph()
     for filename in os.listdir(directory_path):
-        if not filename.lower().endswith(".json"):
-            continue
-        file_path = os.path.join(directory_path, filename)
-        graph += kg_from_file(file_path, store_fragments)
+        # Generate RDF from Json
+        if filename.lower().endswith(".json"):
+            file_path = os.path.join(directory_path, filename)
+            graph += kg_from_file(file_path, store_fragments)
+
+            file_pdf = file_path.replace(".json", ".pdf")
+            # Generate PDF linkage
+            kg_of_pdf_availability_file(file_pdf, graph)
+
     if store_dump:
         graph.serialize(destination=directory_path + dump_file)
 
